@@ -1,0 +1,215 @@
+/*header*/
+.header{
+	width:100%;
+	height:89px;
+	background: #16161d;
+}
+.header_box{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+	position: relative;
+}
+.header_box1{
+	width:100%;
+	height: 45px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;	
+}
+.header_box_sskuang{
+	width: 316px;
+	height: 43px;
+	border: 1px solid #2c2b35;
+/*	background: #1d1c26;*/
+	margin-left: 20px;
+}
+.header_box1_sskicon{
+	width: 18px;
+	height: 18px;
+	background:url(../img/sousuo_03.jpg);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 308px;
+}
+.free{
+	font-size: 14px;
+	font-weight: bold;
+	color: #9197a1;
+	/*margin-left: 60px;*/
+	line-height: 47px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 434px;
+}
+.touxiangw{
+	width: 20px;
+	height: 18px;
+	background:url(../img/touxiang_03.jpg);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 20px
+}
+.touxiangw:hover{
+	background: url(../img/touxiangxiaoguo.png);
+	background-size: 20px 18px;
+}
+.zhuce{
+	font-size: 14px;
+	font-weight: bold;
+	color: #9197a1;
+	line-height: 47px;
+	float: right;
+	margin-right: 54px;
+}
+.zhuce:hover{
+	color: white;
+}
+.denglu{
+	font-size: 14px;
+	font-weight: bold;
+	color: #9197a1;
+	line-height: 47px;
+	float: right;
+}
+.denglu:hover{
+	color: white;
+}
+.header_box1_fankui{
+	width: 20px;
+	height: 20px;
+	background:url(../img/fankui.png);
+	background-size: 20px 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 143px
+}
+.header_box1_fankui:hover{
+	background: url(../img/fankuixiaoguo.png);
+	background-size: 20px 20px;
+}
+.header_box1_gouwudai{
+	width: 21px;
+	height: 23px;
+	background:url(../img/gouwudai.png);
+	background-size: 21px 23px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 173px;
+}
+.header_box1_gouwudai:hover{
+	background:url(../img/gouwudaixiaoguo.png);
+	background-size: 21px 23px;
+}
+
+/*logo区域*/
+.nav_box{
+	width: 100%;
+	height: 101px;
+	background: #e9e9e9;
+}
+.nav_box2{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav_boxl{
+	width: 250px;
+	height: 50px;
+	float: left;
+	margin-top:24px;
+}
+.nav_box2_logowenzi{
+	font-size: 24px;
+	color:#000;
+	font-family: Supreme;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+}
+.nav_box2_logo{
+	float: left;
+}
+
+/*背景色*/
+.beijingse{
+	width: 100%;
+	height: 1029px;
+	background:#eee;
+}
+
+/*大盒子*/
+.dahezi{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*面包屑*/
+.mbxbox{
+	width: 1200px;
+	height: 21px;
+	margin: 0 auto;
+}
+.mbboxshouyeicon{
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-top: 2px;
+}
+.mbxbox_wenzi1{
+	color: #000;
+	font-size: 12px;
+	float: left;
+
+}
+.mbxbox_wenzi1:hover{
+	text-decoration: underline;
+}
+.mbxbox_wenzi2{
+	color: #000;
+	font-size: 12px;
+	float: left;
+	font-weight: bold;
+}
+.mbxbox_wenzi2:hover{
+	text-decoration: underline;
+}
+
+/*个人中心*/
+.grzxbox{
+	width: 100%;
+	height: 660px;
+	background: pink;
+	float: left;
+}
+.zliebiao{
+	width: 288px;
+	height:629px;
+	border: 1px solid #000;
+	float: left;
+	margin-top: 30px; 
+}
+.neirong{
+	width: 871px;
+	height: 476px;
+	background: yellow;
+	float: right;
+}

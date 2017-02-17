@@ -1,0 +1,14 @@
+/*通用选择器*/
+*{
+	margin: 0;
+	padding: 0;
+	/*列表元素*/
+	list-style: none;
+}
+/*删除下划线*/
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 微软雅黑;
+}

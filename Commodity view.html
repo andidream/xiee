@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>commodity view</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/mainCommodity view.css">
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/backTop.js"></script>
+	<script type="text/javascript" src="js/navDown.js"></script> 
+
+
+	<script>
+		$(function(){
+	 	$(".backtop").backTop();
+	 	//$(".backtop") 返回按钮父容器     
+		}) 	
+	</script>
+
+	<script>
+		$(function(){
+	 	$('.xuanxiangbox').navDown($(".xuanxiangbox>div"),$(".xuanxiangbox div div"));
+	 	//$('.nav') 父容器     $(".nav li") 内容列表     $(".nav li div") 下拉列表   
+		}) 
+	</script>
+	<style>
+	</style>
+</head>
+<body>
+
+	<!-- header -->
+	<div class="header">
+		<div class="header_box">
+			<div class="header_box1">
+				<input type="text" placeholder="  输入搜索内容..." class="header_box_sskuang">
+				<p class="free">
+					FREE SHOPPING OVER $99
+				</p>
+				<a href="" class="header_box1_sskicon"></a>
+				<a href="" class="touxiangw"></a>
+				<a href="apply.html" class="zhuce">注册</a>
+				<a href="login.html" class="denglu">登录/</a>
+				<a href="" class="header_box1_fankui"></a>
+				<a href="" class="header_box1_gouwudai"></a>
+			</div>
+			</div>
+	</div>
+
+	<!-- 导航 -->
+	<div class="nav_box">
+		<div class="nav_box2">
+			<a href="HOME.html" class="nav_boxl">
+			<img src="img/logo_03.jpg" alt="" class="nav_box2_logo">
+			<p class="nav_box2_logowenzi">SHOSE BOX</p>
+			</a>
+			
+			<a href="HOME.html" class="nav_box3">
+				<p href="" class="nav_box3_wenzi1">首页</p>
+				<p href="" class="nav_box3_wenzi2">HOME</p>
+				<div class="nav_box3_xian"></div>
+			</a>
+			<a href="Commodity view.html" class="nav_box4">
+				<p href="" class="nav_box3_wenzi1">男款</p>
+				<p href="" class="nav_box3_wenzi2">MAN</p>
+				<div class="nav_box4_xian"></div>
+			</a>
+			<a href="" class="nav_box5">
+				<p href="" class="nav_box3_wenzi1">女款</p>
+				<p href="" class="nav_box3_wenzi2">WOMAN</p>
+				<div class="nav_box3_xian"></div>
+			</a>
+			<a href="" class="nav_box6">
+				<p href="" class="nav_box3_wenzi1">帮助</p>
+				<p href="" class="nav_box3_wenzi2">HELP</p>
+				<div class="nav_box3_xian"></div>
+			</a>
+		</div>
+	</div>
+	<div class="nav_xian"></div>
+
+	<!-- 大盒子 -->
+	<div class="dbox">
+
+		<!-- 面包屑 -->
+		<div class="mbxbox">
+			<img src="imgcommodity/shouyeicon.jpg" alt="" class="mbboxshouyeicon">
+			<a href="HOME.html" class="mbxbox_wenzi1">
+				首页>
+			</a>
+			<a href="" class="mbxbox_wenzi2">
+				男款
+			</a>
+		</div>
+
+			<!-- 标题 -->
+		<div class="biaoti_box">
+		<div class="biaoti_box_xian1"></div>
+		<p class="biaoti_box_wenzi">
+			男款/150件商品
+		</p>
+		<div class="biaoti_box_xian2"></div>
+		</div>
+
+		<!-- 筛选 -->
+		<div class="shaixuanbox">
+			<img src="img/shaixuan.jpg" alt="" class="shaixuanbox_tp">
+			<p class="shaixuanboxzi">排序</p>
+			<div class="shaixuan_morenkuang">
+				<p class="shaixuan_morenkuangzi">默认</p>
+			</div>
+			<div class="shaixuan_jiagekuang">
+				<img src="img/jiantouxiangshang.png" alt="" class="shaixuan_jiagekuang_icon">
+				<p class="shaixuan_jiagekuangzi">
+					价格
+				</p>
+			</div>
+			<div class="shaixuan_changxiaokuang">
+				<p class="shaixuan_changxiaokuangzi">最畅销</p>
+			</div>
+		</div>
+
+		<!-- 选项 -->
+		<div class="xuanxiangbox">
+			<div class="xiliebox">
+				<p>系列</p>
+				<a href="" class="jiahao">+</a>
+			    <div>
+				<a href="##">Air Jordan</a>
+				<a href="##">Convers</a>
+				<a href="##">Adidas</a>
+				<a href="##">Puma</a>
+				<a href="##">Nike</a>
+				<a href="##">Vans</a>
+				</div>
+			</div>
+			<div class="xiliebox">
+				<p>季节</p>
+				<a href="" class="jiahao">+</a>
+			    <div>
+				<a href="##">春spring</a>
+				<a href="##">夏summer</a>
+				<a href="##">秋autumn</a>
+				<a href="##">冬winter</a>
+				</div>
+			</div>
+			<div class="xiliebox">
+				<p>分类</p>
+				<a href="##" class="jiahao">+</a>
+			    <div>
+				<a href="">经典classical</a>
+				<a href="">流行popular</a>
+				<a href="">运动sport</a>
+				<a href="">炫酷cool</a>
+				</div>
+			</div>
+			<div class="xiliebox">
+				<p>价格</p>
+				<a href="##" class="jiahao">+</a>
+			    <div>
+				<a href="">￥0-299</a>
+				<a href="">￥300-399</a>
+				<a href="">￥400-499</a>
+				<a href="">￥500-599</a>
+				<a href="">￥600-699</a>
+				<a href="">￥700+</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 商品 -->
+		<div class="shangpinbox">
+
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/adnavy.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/adbraid.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/aj4.jpg" alt="">
+			</a>
+
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/adifounda.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/adigao.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/aj5.jpg" alt="">
+			</a>
+
+
+			<a href="shangpinxiangqing.html" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/pmrihanna.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/pmtrinomic.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/gray.jpg" alt="">
+			</a>
+
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/gourm.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/aj6in.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/aj1top.jpg" alt="">
+			</a>
+
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/pvastw.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/nvewfugu.jpg" alt="">
+			</a>
+			<a href="" class="shangpinboxxie">
+				<div class="shangpinboxxiekuang"></div>
+				<img src="imgview/vansjing.jpg" alt="">
+			</a>
+		</div>
+
+		<!-- 页数选项 -->
+		<div class="yeshubox">
+			<div class="yeshubox_xiayiye">
+				<p class="yeshubox_wenzi">下一页></p>
+			</div>
+			<div class="yeshubox_ye">
+				<p class="yeshubox_wenzi">4</p>
+			</div>
+			<div class="yeshubox_ye">
+				<p class="yeshubox_wenzi">3</p>
+			</div>
+			<div class="yeshubox_ye">
+				<p class="yeshubox_wenzi">2</p>
+			</div>
+			<div class="yeshubox_yehei">
+				<p class="yeshubox_wenzihei">1</p>
+			</div>
+			<div class="yeshubox_shangyiye">
+				<p class="yeshubox_wenzi"><上一页</p>
+			</div>
+		</div>
+	</div>
+	
+<!-- 信赖标签 -->
+			<div class="xinlaibox"></div>
+
+			<!-- 底部导航 -->
+			<div class="dbbox">
+				<div class="dbbox0">
+					<div class="dbbox1">
+						<div class="dbbox1_wenzi1">
+							Quick Link
+						</div>
+						<a href="" class="dbbox1_zi1">
+							My account<br>
+						</a>
+						<a href="" class="dbbox1_zi2">
+							Order history<br>
+						</a>
+						<a href="" class="dbbox1_zi3">
+							Wish list<br>
+						</a>	
+						<a href="" class="dbbox1_zi4">
+							Store location<br>
+						</a>
+						<a href="" class="dbbox1_zi5">
+							Site map
+						</a>
+					</div>
+					<div class="dbbox1">
+						<div class="dbbox1_wenzi1">
+							Our Offers
+						</div>
+						<a href="" class="dbbox1_zi1">
+							New collection<br>
+						</a>
+						<a href="" class="dbbox1_zi2">
+							Best sellers<br>
+						</a>
+						<a href="" class="dbbox1_zi3">
+							Manufacturers<br>
+						</a>	
+						<a href="" class="dbbox1_zi4">
+							New products<br>
+						</a>
+						<a href="" class="dbbox1_zi5">
+							Specail products
+						</a>
+					</div>
+					<div class="dbbox1">
+						<div class="dbbox1_wenzi1">
+							Help
+						</div>
+						<a href="" class="dbbox1_zi1">
+							Help & Contact<br>
+						</a>
+						<a href="" class="dbbox1_zi2">
+							Shipping & taxes<br>
+						</a>
+						<a href="" class="dbbox1_zi3">
+							Return policy<br>
+						</a>	
+						<a href="" class="dbbox1_zi4">
+							Affiliates<br>
+						</a>
+						<a href="" class="dbbox1_zi5">
+							Legal Notice
+						</a>
+					</div>
+					<div class="dbbox1">
+				<!-- 		<img src="img/dizhi.jpg" alt="" class="dbbox1_tp1"> -->
+						<div class="dbbox1_wenzi1">
+							Contact Us 
+						</div>
+						<p href="" class="dbbox1_wenzi3">
+							ADRESS: ALIBABA Oxford Street 02<br> 
+							MAIL: emailsupport@gmail.com<br> 
+							PHONE: (+92) 34579 8813<br> 
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- 最底部 -->
+			<div class="zuidibubox">
+				<div class="zuidibubox1">
+					<img src="img/logodibu.jpg" alt="" class="zuidibubox1_tp">
+					<p class="zuidibubox1_wenzi1">
+						SHOSE BOX
+					</p>
+					<div class="zuidibubox1_xian"></div>
+					<p class="zuidibubox1_wenzi2">
+						Copyright @ 2016 ALIBABA. All rights 
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="backtop">
+			<img src="img/backtop.png" alt="" class="backtop_tp">
+		</div>
+</body>
+</html>
